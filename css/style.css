@@ -8,7 +8,12 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
+}
+
+nav{
+  background-color: #1b262a!important;
+  color:#fff;
 }
 
 p {
@@ -19,15 +24,23 @@ p {
   color: #26a69a;
 }
 
+#staggered_first > li{
+  opacity: 0;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container:nth-of-type(1){
+  height: 100vh;
+}
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -52,6 +65,19 @@ p {
   font-size: inherit;
 }
 
+footer{
+  background-color: #1b262a!important;
+}
+
+footer .footer-copyright{
+  background-color: #233236!important;
+  color:#fff!important;
+}
+
 footer.page-footer {
   margin: 0;
+}
+
+.parallax-container .parallax img{
+  filter: blur(3px);
 }

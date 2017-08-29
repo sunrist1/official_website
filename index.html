@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/public/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 </head>
 <body>
@@ -18,14 +19,14 @@
         <a id="logo-container" href="#" class="brand-logo">叒木工作室</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">官网首页</a></li>
-          <li><a href="#">客户案例</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="example_dropdown_pc">客户案例</a></li>
           <li><a href="#">关于我们</a></li>
           <li><a href="#">联系我们</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
           <li><a href="#">官网首页</a></li>
-          <li><a href="#">客户案例</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="example_dropdown_mobile">客户案例</a></li>
           <li><a href="#">关于我们</a></li>
           <li><a href="#">联系我们</a></li>
         </ul>
@@ -33,6 +34,21 @@
       </div>
     </nav>
   <!-- </div> -->
+
+  <ul id="example_dropdown_mobile" class="dropdown-content">
+    <li><a href="#!">生活家居</a></li>
+    <li><a href="#!">建筑装饰</a></li>
+    <li><a href="#!">商务企业</a></li>
+    <li><a href="#!">餐饮美食</a></li>
+  </ul>
+
+  <ul id="example_dropdown_pc" class="dropdown-content">
+    <li><a href="#!">生活家居</a></li>
+    <li><a href="#!">建筑装饰</a></li>
+    <li><a href="#!">商务企业</a></li>
+    <li><a href="#!">餐饮美食</a></li>
+  </ul>
+  
 
   <div id="index-banner" class="parallax-container valign-wrapper center-align">
     <div style="display:inline-block;width:100%;">
@@ -105,6 +121,95 @@
     <div class="section">
 
       <div class="row">
+        <div class="col s12 m8 l8 left">
+          <h4>我们的优势</h4>
+          <blockquote>
+            我们的建站编辑器让您：不懂设计、不懂编程也能快速做出真正的响应式网站
+            动动鼠标、想改就改、自由拖拽、自由添加、支持深度个性化定制，颠覆传统模板自助建站
+          </blockquote>
+          <ul class="item_list row" id="staggered-second">
+            <li class="col s12 m6 row">
+              <i class="col s2 material-icons">camera</i>
+              <div class="text col s10">
+                <h4>自由编辑</h4>
+                <p>支持深度个性化定制，颠覆传统模板自助建站，真正的响应式网站</p>
+              </div>
+            </li>
+            <li class="col s12 m6 row">
+              <i class="col s2 material-icons">camera</i>
+              <div class="text col s10">
+                <h4>自由编辑</h4>
+                <p>支持深度个性化定制，颠覆传统模板自助建站，真正的响应式网站</p>
+              </div>
+            </li>
+            <li class="col s12 m6 row">
+              <i class="col s2 material-icons">camera</i>
+              <div class="text col s10">
+                <h4>自由编辑</h4>
+                <p>支持深度个性化定制，颠覆传统模板自助建站，真正的响应式网站</p>
+              </div>
+            </li>
+            <li class="col s12 m6 row">
+              <i class="col s2 material-icons">camera</i>
+              <div class="text col s10">
+                <h4>自由编辑</h4>
+                <p>支持深度个性化定制，颠覆传统模板自助建站，真正的响应式网站</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col s12 m4 l4 right_img">
+          <img src="/images/background8.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="grey lighten-4"  id="">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3>经典案例</h3>
+          <p>支持深度个性化定制，颠覆传统模板自助建站，真正的响应式网站</p>
+
+          <ul class="row sample_list" id="staggered-third">
+            <li class="sample_item col s12 m4 l4">
+              <img src="/images/sample_img/sample_1.png" alt="" class="">
+              <p>大本设计公司</p>
+            </li>
+            <li class="sample_item col s12 m4 l4">
+              <img src="/images/sample_img/sample_2.png" alt="" class="">
+              <p>一美建筑公司</p>
+            </li>
+            <li class="sample_item col s12 m4 l4">
+              <img src="/images/sample_img/sample_3.png" alt="" class="">
+              <p>法鲨商务咨询公司</p>
+            </li>
+            <li class="sample_item col s12 m4 l4">
+              <img src="/images/sample_img/sample_4.png" alt="" class="">
+              <p>漠小白保险公司</p>
+            </li>
+            <li class="sample_item col s12 m4 l4">
+              <img src="/images/sample_img/sample_5.png" alt="" class="">
+              <p>品牌形象策划公司</p>
+            </li>
+            <li class="sample_item col s12 m4 l4">
+              <img src="/images/sample_img/sample_6.png" alt="" class="">
+              <p>花嫁园林花卉公司</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div> 
+
+  <!-- <div class="container"  id="">
+    <div class="section">
+
+      <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
@@ -113,17 +218,67 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
-  <div class="parallax-container valign-wrapper">
+  <div class="product_box">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <h4>我们的产品套餐</h4>
+        <p>我们为不同的你提供了不一样的产品套餐</p>
+
+        <div class="product_list row">
+          <div class="item col s12 m4 l4">
+            <div class="content">
+              <h5>经济套餐</h5>
+              <div class="divide"></div>
+              <p>自定义顶级域名</p>
+              <p>在线客服</p>
+              <p>每月8000次访问流量</p>
+              <p>站点转移功能</p>
+              <p>去全站广告</p>
+              <p>新闻模块</p>
+              <p>自定义HTML代码</p>
+
+              <div class="divide"></div>
+              <a href="#!" class="btn waves-effect waves-light lighten-1 white black-text">了解更多</a>
+            </div>
+          </div>
+          <div class="item col s12 m4 l4">
+            <div class="content">
+              <h5>经济套餐</h5>
+              <div class="divide"></div>
+              <p>自定义顶级域名</p>
+              <p>在线客服</p>
+              <p>每月8000次访问流量</p>
+              <p>站点转移功能</p>
+              <p>去全站广告</p>
+              <p>新闻模块</p>
+              <p>自定义HTML代码</p>
+
+              <div class="divide"></div>
+              <a href="#!" class="btn waves-effect waves-light lighten-1 white black-text">了解更多</a>
+            </div>
+          </div>
+          <div class="item col s12 m4 l4">
+            <div class="content">
+              <h5>经济套餐</h5>
+              <div class="divide"></div>
+              <p>自定义顶级域名</p>
+              <p>在线客服</p>
+              <p>每月8000次访问流量</p>
+              <p>站点转移功能</p>
+              <p>去全站广告</p>
+              <p>新闻模块</p>
+              <p>自定义HTML代码</p>
+
+              <div class="divide"></div>
+              <a href="#!" class="btn waves-effect waves-light lighten-1 white black-text">了解更多</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="/images/background7.jpg" alt="Unsplashed background img 3"></div>
+    <!-- <div class="parallax"><img src="/images/background7.jpg" alt="Unsplashed background img 3"></div> -->
   </div>
 
   <footer class="page-footer">
